@@ -1,5 +1,5 @@
 /* regole generali */
-body {
+body, figure {
     margin: 0;
 }
 
@@ -20,6 +20,7 @@ span{
 .text-small {
     font-size: 13px;
 }
+
 
 /* Header */
 #main-header {
@@ -43,4 +44,9 @@ h1 {
 address {
     font-style: normal;
     font-size: 16px;
+}
+
+/* foto aricolo */
+.article-pictures {
+    margin: 18px 0;
 }

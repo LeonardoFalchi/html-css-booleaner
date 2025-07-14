@@ -21,6 +21,9 @@ span{
     font-size: 13px;
 }
 
+.w-50 {
+    width: 50%;
+}
 
 /* Header */
 #main-header {
@@ -50,3 +53,20 @@ address {
 .article-pictures {
     margin: 18px 0;
 }
+
+
+/* tabella */
+th {
+    text-align: left;
+    background-color:#20a9e5 ;
+    color: #fff;
+}
+
+tr {
+    background-color: #b1e5f2;
+}
+
+table {
+    border-collapse: collapse;
+}
+

@@ -56,6 +56,10 @@ address {
 
 
 /* tabella */
+table {
+    border-collapse: collapse;
+}
+
 th {
     text-align: left;
     background-color:#20a9e5 ;
@@ -66,7 +70,37 @@ tr {
     background-color: #b1e5f2;
 }
 
-table {
-    border-collapse: collapse;
+.bg-white {
+    background-color: #fff;
 }
 
+
+/* Contenuto marginale */
+
+#monitor {
+    color: #fff;
+    width: 200px;
+    height: 165px;
+    background-image: url(../img/monitor.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#graph {
+    color: #fff;
+    width: 200px;
+    height: 165px;
+    background-image: url(../img/graph.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.related-article-title {
+    margin: 0;
+}

@@ -1,7 +1,9 @@
 /* regole generali */
 body, figure {
     margin: 0;
+    padding-left: 5px;
 }
+
 
 span{
     color: #7DCAEE;
